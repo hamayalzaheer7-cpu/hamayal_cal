@@ -1,6 +1,7 @@
 var display = document.getElementById("display");
 
 //adding button value in display
+
 function addValue(value) {
     if (display.value == "Invalid Input" ||
         display.value == "Cannot divide by zero" ||
@@ -12,11 +13,13 @@ function addValue(value) {
 }
 
 // Display clear
+
 function clearDisplay() {
     display.value = "";
 }
 
 // calculation performance
+
 function calculate() {
 
     if (display.value == "") {
