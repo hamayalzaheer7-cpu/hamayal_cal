@@ -1,6 +1,6 @@
 var display = document.getElementById("display");
 
-// Button ki value display mein add karna
+//adding button value in display
 function addValue(value) {
     if (display.value == "Invalid Input" ||
         display.value == "Cannot divide by zero" ||
@@ -11,12 +11,12 @@ function addValue(value) {
     display.value = display.value + value;
 }
 
-// Display clear karna
+// Display clear
 function clearDisplay() {
     display.value = "";
 }
 
-// Calculation perform karna
+// calculation performance
 function calculate() {
 
     if (display.value == "") {
